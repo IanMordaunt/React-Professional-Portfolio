@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Protfolio/static/css/main.1facfab3.css",
+    "main.js": "/React-Protfolio/static/js/main.0da51a6c.js",
+    "static/media/Ian-Mordaunt_Portfolio.png": "/React-Protfolio/static/media/Ian-Mordaunt_Portfolio.6b8ea542e2a3a44cca22.png",
+    "static/media/corrugated.jpg": "/React-Protfolio/static/media/corrugated.03048882e020ea802d30.jpg",
+    "static/media/Stox-ster.png": "/React-Protfolio/static/media/Stox-ster.affbdcdb014afd6f7700.png",
+    "static/media/Auto-Part-Inv-Tracker.png": "/React-Protfolio/static/media/Auto-Part-Inv-Tracker.a3cc91ed97c60fedda92.png",
+    "static/media/HTML-JS.png": "/React-Protfolio/static/media/HTML-JS.649f05b8663123ce6739.png",
+    "static/media/ProfileImg.jpeg": "/React-Protfolio/static/media/ProfileImg.89012c6af886b18f9bca.jpeg",
+    "static/media/weather-dashboard.png": "/React-Protfolio/static/media/weather-dashboard.900f26f9155f17f958f6.png",
+    "static/media/Tech-Blog.png": "/React-Protfolio/static/media/Tech-Blog.b7cb4b9bf1649b64e7c7.png",
+    "static/media/team_generator.png": "/React-Protfolio/static/media/team_generator.fb19735a26cbbe2ce998.png",
+    "static/media/05-Work Day Scheduler.png": "/React-Protfolio/static/media/05-Work Day Scheduler.3b906081320b2ca98505.png",
+    "static/media/employee-tracker.png": "/React-Protfolio/static/media/employee-tracker.c555f515e6be3c07c0dd.png",
+    "static/media/note-taker.png": "/React-Protfolio/static/media/note-taker.f541a48a7195646c4116.png",
+    "index.html": "/React-Protfolio/index.html",
+    "main.1facfab3.css.map": "/React-Protfolio/static/css/main.1facfab3.css.map",
+    "main.0da51a6c.js.map": "/React-Protfolio/static/js/main.0da51a6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1facfab3.css",
+    "static/js/main.0da51a6c.js"
+  ]
+}
