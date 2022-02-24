@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Professional-Portfolio/static/css/main.1facfab3.css",
+    "main.css": "/React-Professional-Portfolio/static/css/main.d027527a.css",
     "main.js": "/React-Professional-Portfolio/static/js/main.c5fc5a22.js",
     "static/media/Ian-Mordaunt_Portfolio.png": "/React-Professional-Portfolio/static/media/Ian-Mordaunt_Portfolio.6b8ea542e2a3a44cca22.png",
     "static/media/corrugated.jpg": "/React-Professional-Portfolio/static/media/corrugated.03048882e020ea802d30.jpg",
@@ -15,11 +15,11 @@
     "static/media/employee-tracker.png": "/React-Professional-Portfolio/static/media/employee-tracker.c555f515e6be3c07c0dd.png",
     "static/media/note-taker.png": "/React-Professional-Portfolio/static/media/note-taker.f541a48a7195646c4116.png",
     "index.html": "/React-Professional-Portfolio/index.html",
-    "main.1facfab3.css.map": "/React-Professional-Portfolio/static/css/main.1facfab3.css.map",
+    "main.d027527a.css.map": "/React-Professional-Portfolio/static/css/main.d027527a.css.map",
     "main.c5fc5a22.js.map": "/React-Professional-Portfolio/static/js/main.c5fc5a22.js.map"
   },
   "entrypoints": [
-    "static/css/main.1facfab3.css",
+    "static/css/main.d027527a.css",
     "static/js/main.c5fc5a22.js"
   ]
 }
