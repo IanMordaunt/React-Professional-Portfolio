@@ -11,11 +11,10 @@ body {
   /* display: flex;
   flex-direction: column; */
   min-height: 100% !important;
-  
 }
 
-.inside{
-  padding: 20px !important;
+.inside {
+  /* padding: 20px !important; */
   padding-bottom: 50px !important;
 }
 
@@ -26,8 +25,9 @@ body {
 /* Header / Nav */
 .mainHeader {
   background-color: rgb(18, 48, 92);
-  height: 200px;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .headerName {
@@ -37,26 +37,20 @@ body {
   padding-bottom: 2%;
   font-size: 5.7rem;
   background-color: rgb(18, 48, 92);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   max-width: 40%;
   margin-left: 3%;
   border-radius: 20px;
-  padding: 6px 1px 6px 2px ;
+  padding: 6px 1px 6px 2px;
   margin-bottom: 2rem;
   -webkit-text-stroke: 0.3vw rgb(142, 151, 148);
   text-transform: uppercase;
   padding-top: 3%;
 }
 
-
 .nav {
-  justify-content: end;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.7rem;
-  font-weight: bolder;
-  margin-top: -6%;
-  background-color: rgb(18, 48, 92);
-  margin-right: 1%;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .nav-item a {
@@ -64,7 +58,7 @@ body {
   font-weight: 700;
   background-color: rgb(18, 48, 92);
   font-size: 32.5px;
-  text-transform: uppercase ;
+  text-transform: uppercase;
 }
 
 .nav-item a:hover {
@@ -83,6 +77,7 @@ body {
 }
 
 /* Portfolio Page */
+
 
 .projTitle {
   text-align: center !important;
@@ -105,10 +100,9 @@ body {
   padding-bottom: 20px;
   border-style: solid;
   background-color: rgb(18, 48, 92);
-  border-color:  rgb(220, 236, 190);
+  border-color: rgb(220, 236, 190);
   border-width: 5px;
 }
-
 
 .portfolio-div {
   display: flex;
@@ -160,32 +154,31 @@ body {
   text-align: center;
   margin: 35px 0 20px 0 !important;
 }
-
+/* 
 .skills-list {
   padding-top: 20px;
-}
+} */
 
-.skills {
-  transform: scale(4.4);
-}
+
 
 .skills-list ul {
   margin-top: 10px;
   margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .skills li {
-  padding-right: 9px;
-  display: inline;
-  align-items: center;
+  list-style: none;
+
 }
 
 .html {
-  color: red; 
+  color: red;
 }
 
 .css {
-  color: blue; 
+  color: blue;
 }
 
 .js {
@@ -197,11 +190,11 @@ body {
 }
 
 .npm {
-  color: red
+  color: red;
 }
 
 .jquery {
-  color: orange
+  color: orange;
 }
 
 .react {
@@ -209,7 +202,7 @@ body {
 }
 
 .handlebars {
-  color:  orange
+  color: orange;
 }
 
 .mongodb {
@@ -251,15 +244,15 @@ body {
   padding-bottom: 20px;
   border-style: solid;
   background-color: rgb(18, 48, 92);
-  border-color:  rgb(220, 236, 190);
+  border-color: rgb(220, 236, 190);
   border-width: 5px;
 }
 
 .formcontainer {
   text-align: center;
- justify-content: center;
- align-items: center;
- margin-bottom: 170px !important;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 170px !important;
 }
 
 .contactForm {
@@ -267,7 +260,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 50% !important;
-  
 }
 
 .contactBtn {
@@ -285,8 +277,7 @@ body {
   margin-left: 38%;
 }
 
-.footerContainer
-{
+.footerContainer {
   height: 50px !important;
   margin-top: -50px !important;
 }

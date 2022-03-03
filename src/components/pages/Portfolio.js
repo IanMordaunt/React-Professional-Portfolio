@@ -8,7 +8,7 @@ function Portfolio() {
       name: "Stox-ster",
       image: "Stox-ster",
       description: "Stox-ster is a personalized stock trading application",
-      tech: "Node.js, SQL, Handlebars, Express, Dcrypt, Dotenv" ,
+      tech: "Node.js, SQL, Handlebars, Express, Bcrypt, Dotenv" ,
       link: "https://ianmordaunt.github.io/Stox-ster/",
       github: "https://github.com/IanMordaunt/Stox-ster",
     },
@@ -20,11 +20,12 @@ function Portfolio() {
       github: "",
     },
     {
-      name: "Team Generator",
-      image: "team_generator",
-      description: "JS, HTML, CSS, Server Side APIs",
-      link: "",
-      github: "",
+      name: "DRIP",
+      image: "DRIP",
+      description: "A blog platform focused on everything coffee",
+       tech: "HTML, CSS, Bootstrap, Node.JS, Express, React.js, MongoDB, GraphQL" ,
+      link: "https://drip-coffee-blog-mern.herokuapp.com/",
+      github: "https://github.com/BennetWilson/drip-coffee-blog",
     },
     {
       name: "Weather Dashboard",
@@ -34,11 +35,11 @@ function Portfolio() {
       github: "",
     },
     {
-      name: "Note Taker",
-      image: "note-taker",
-      description: "HTRML, Bootstrap, JQuery",
-      link: "https://shielded-harbor-18931.herokuapp.com/notes",
-      github: "https://github.com/IanMordaunt/Note-Taker",
+      name: "Team Generator",
+      image: "team_generator",
+      description: "JS, HTML, CSS, Server Side APIs",
+      link: "",
+      github: "",
     },
     {
       name: "Tech Blog",
@@ -47,13 +48,15 @@ function Portfolio() {
       link: " https://mvc-tech-block-ian.herokuapp.com/",
       github: "https://github.com/IanMordaunt/mvc-tech-blog-mordaunt",
     },
-    // {
-    //   name: "",
-    //   image: "",
-    //   description: "HTML, CSS",
-    //   link: "",
-    //   github: "",
-    // },,,
+    {
+      name: "Note Taker",
+      image: "note-taker",
+      description: "HTRML, Bootstrap, JQuery",
+      link: "https://shielded-harbor-18931.herokuapp.com/notes",
+      github: "https://github.com/IanMordaunt/Note-Taker",
+    },
+    
+    
      // {
     //   name: "",
     //   image: "",
@@ -74,7 +77,7 @@ function Portfolio() {
             <Card key={example.name} id={example.id} className="WorkCard">
               <Col className="img-col">
                 <img
-                  src={require(`../../Assets/portfolio/${example.image}.png`)}
+                 bre src={require(`../../Assets/portfolio/${example.image}.png`)}
                   alt="Img of portfolio project"
                   className="project-image"
                 />

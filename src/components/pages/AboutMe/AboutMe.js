@@ -49,49 +49,49 @@ export default function AboutMe() {
       </div>
       <div>
         <h1 className="h12">- Skills -</h1>
-        <div className="skills-list text-center">
+        <div className="skills-list">
           <ul className="skills">
             <li className="html">
-              <DiHtml5 />
+              <DiHtml5 size={60}/>
             </li>
             <li className="css">
-              <DiCss3Full />
+              <DiCss3Full size={60} />
             </li>
             <li className="js">
-              <DiJsBadge />
+              <DiJsBadge size={60}/>
             </li>
             <li className="node">
-              <DiNodejs />
+              <DiNodejs size={60}/>
             </li>
             <li className="npm">
-              <DiNpm />
+              <DiNpm size={60}/>
             </li>
             <li className="jquery">
-              <DiJqueryLogo />
+              <DiJqueryLogo size={60}/>
             </li>
             <li className="react">
-              <DiReact />
+              <DiReact size={60} />
             </li>
             <li className="handlebars">
-              <SiHandlebarsdotjs />
+              <SiHandlebarsdotjs size={60}/>
             </li>
             <li className="mongodb">
-              <DiMongodb />
+              <DiMongodb size={60}/>
             </li>
             <li className="mysql">
-              <DiMysql />
+              <DiMysql size={60}/>
             </li>
             <li className="git">
-              <DiGit />
+              <DiGit size={60}/>
             </li>
             <li className="github">
-              <DiGithubBadge />
+              <DiGithubBadge size={60}/>
             </li>
             <li className="heroku">
-              <DiHeroku />
+              <DiHeroku size={60}/>
             </li>
             <li className="vscode">
-              <DiVisualstudio />
+              <DiVisualstudio size={60}/>
             </li>
           </ul>
         </div>
